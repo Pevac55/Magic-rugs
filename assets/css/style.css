@@ -1,0 +1,519 @@
+*{margin:0px;
+ padding:0px;}
+ 
+cistac{
+	 clean:both;
+ }
+
+@font-face{
+	font-family:cenaFont;
+	sec: url("../../assets/font_family/2MASS%20J1808-Normal%20(personal%20use).otf")
+}
+
+@font-face{
+	font-family:žnjFont;
+	src: url("../../assets/font_family/1_Abraham_Demo.otf");
+}
+
+@font-face{
+	font-family:logoFont;
+	src: url("../../assets/font_family/Magica.otf")
+}
+
+@font-face{
+	font-family:textFont;
+	src: url("../../assets/font_family/KoldbyFree.otf")
+}
+
+@keyframes žnj{
+	from{left:500px;}
+	to{left:0px;}
+}
+
+@keyframes plum{
+	from{right:1000px;}
+	to{right:0px;}
+}
+
+@keyframes top{
+	from{bottom:1000px;}
+	to{bottom:0px;}
+}
+
+body{
+	background-color:#D07F24;
+}
+
+header{
+	padding:20px auto;
+	background-color:#D07F24;
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index: 2;
+}
+
+header a p{
+	float:left;
+	text-decoration:none;
+	color:#C52D2D;
+	font-size:37px;
+	font-family:logoFont;
+	margin-top:24px;
+	animation-name:plum;
+	animation-duration:3s;
+	position:relative;
+}
+
+header img{
+	margin-top:-14px;
+	width:130px;
+	height:130px;
+	float:left;
+	position:relative;
+	animation-name:plum;
+	animation-duration:3s;
+}
+
+nav{
+	position:relative;
+	margin-top:35px;
+	float:right;
+	width:800px;
+	height:100px;
+	font-family:Mongolian Baiti;
+	animation-name:žnj;
+	animation-duration:3s;
+}
+
+header ul{
+	list-style-type:none;
+}
+
+header ul li a{
+	text-decoration:none;
+	color:#C52D2D;
+	font-size:30px;
+	transition:0.5s;
+}
+
+header ul li{
+	margin-right:35px;
+	float:right;
+	transition:0.5s;
+	border-radius:12px;
+}
+
+header ul li:hover{
+	background-color:#C52D2D;
+}
+
+header ul li a:hover{
+	color:#D07F24;
+}
+
+main{
+	background-image: url("../../assets/img/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	width:100%;
+	height:700px;
+	padding-top:100px;
+}
+
+footer{
+	width:100%;
+	height:270px;
+	background-color:#34270B;
+}
+
+#adresa{
+	width:15%;
+	height:60%;
+	line-height:45px;
+	float:left;
+	margin-left:90px;
+	color:#C52D2D;
+}
+
+#radno-vreme{
+	height:60%;
+	width:30%;
+	line-height:60px;
+	color:#C52D2D;
+	font-family:New Century Schoolbook;
+	float:left;
+}
+
+#social{
+	width:20%;
+	height:60%;
+	float:right;
+	color:#C52D2D;
+}
+
+#social h2{
+	text-align:center;
+	font-family:žnjFont;
+}
+
+#copyright{
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#fff;
+}
+
+#copyright p{
+	margin-top:28px;
+}
+
+#logo{
+	float:left;
+}
+
+#logo img{
+	width:190px;
+	height:190px;
+	margin-left:210px;
+}
+
+#logo a{
+	text-decoration:none;
+}
+
+#logo p{
+	color:#C52D2D;
+	font-size:37px;
+	font-family:logoFont;
+	margin-left:190px;
+	margin-top:-30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #C60909;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #AC0A0A}
+
+.button:active {
+  background-color: #AC0A0A;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+#who{
+	margin-top:200px;
+	width:100%;
+	height:600px;
+	text-align:center;
+	color:#34270B;
+}
+
+
+#who img{
+	width:320px;
+	height:420px;
+	float:left;
+	margin-left:200px;
+}
+
+.tekst{
+	width:500px;
+	height:420px;
+	float:left;
+	font-size:30px;
+	margin-left:200px;
+	background-color:#34270B;
+	color:#C52D2D;
+	font-family:textFont;
+	line-height:55px;
+}
+
+#about{
+	width:100%;
+	height:700px;
+	background-image: url("../../assets/img/pexels-jenny-mavimiro-14583931.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position-y: 40%;
+}
+
+#who h1{
+	text-align:center;
+	color:#34270B;
+}
+
+#who a {
+	float:left;
+}
+
+#AboutThem{
+	width:100%;
+	height:600px;
+	text-align:center;
+	color:#34270B;
+}
+
+#AboutThem img{
+	width:320px;
+	height:420px;
+	float:right;
+	margin-right:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer i {
+	font-size:50px;
+	margin-left:30px;
+	transition:0.6s;
+	color:#C52D2D;
+	
+}
+
+i:hover{
+	color:#D07F24;
+}
+
+#više{
+	text-align:center;
+	margin-top:-30px;
+}
+
+#više h1{
+	color:#34270B;
+}
+
+
+
+.tama{
+	width:100%;
+	height:700px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.tama h1{
+	color:#C52D2D;
+	display: flex;
+	justify-content: center;
+	padding-top:200px;
+	font-family:Times New Roman;
+	font-size:100px;
+	text-align:center;
+	position:relative;
+	animation-name:top;
+	animation-duration:3s;
+}
+
+#galerija{
+	background-image:url("../../assets/img/rolovani_tepisi.jpg");
+	width:100%;
+	height:700px;
+	background-position-y: -100%;
+	padding-top:100px;
+}
+
+#kolekcija{
+	padding-top:50px;
+	width:100%;
+	height:1200px;
+	background-color:#34270B;
+}
+
+#kolekcija h1{
+	text-align:center;
+	color:#C52D2D;
+}
+
+#kolekcija p{
+	text-align:center;
+	color:#C52D2D;
+}
+
+.left{
+	float:left;
+	width:50%;
+	z-index: 0;
+	background-color:#D1A936;
+	margin-top:-100px;
+	transition:0.8s;
+}
+
+.left p{
+	color:#34270B;
+	font-family:cenaFont;
+}
+
+.right{
+	float:right;
+	width:50%;
+	z-index: 0;
+	background-color:#D1A936;
+	margin-top:-100px;
+	transition:0.8s;
+}
+
+.right p{
+	color:#34270B;
+	font-family:cenaFont;
+}
+
+.tepih:hover .right {
+	margin-top:0px;
+}
+
+.tepih:hover .left {
+	margin-top:0px;
+}
+
+
+.tepih{
+	float:left;
+	width:350px;
+	height:500px;
+	margin-left:100px;
+}
+
+.tepih img{
+	width:100%;
+	height:90%;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+#buy{
+	width:100%;
+	height:200px;
+	text-align:center;
+	background-color:#D1A936;
+}
+
+#buy h1{
+	color:#34270B;
+	padding-left:-50px;
+}
+
+
+#main{
+	background-image:url("../../assets/img/kontakt_pozadina.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding-top:100px;
+}
+
+#kontakt{
+	display:flex;
+	width:60%;
+	height:450px;
+	justify-content:;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:20%;
+	background-color:#E5520E;
+	border:2px solid #C52D2D;
+	padding-left:50px;
+}
+
+#kbut{
+	margin-top:30px;
+}
+
+
+input[type=text], input[type=email]{
+	display:inline-block;
+  width: 100%;
+  height:20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border:2px solid #C52D2D;
+  background-color:#D07F24;
+}
+
+textarea{
+	width:105%;
+	height:100px;
+	background-color:#D07F24;
+	border:2px solid #C52D2D;
+}
+
+#ja{
+	height:1000px;
+}
+
+#ja-opis{
+	width:600px;
+	height:700px;
+	background-color:#34270B;
+	margin-left:500px;
+	padding-top:100px;
+}
+
+#ja-opis p{
+	float:right;
+	font-size:30px;
+	color:#C52D2D;
+}
+
+#ja-opis img{
+	border-radius:50px;
+	width:100%;
+	height:70%;
+}
+
+#ja-opis i{
+	font-family:Lucida Handwriting;
+	font-size:19px;
+	float:right;
+	color:#C52D2D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
